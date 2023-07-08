@@ -3,6 +3,9 @@ import "../index.css";
 import styles from "../index.css";
 import logo from "../images/Logo.png";
 import React, { useState, useEffect } from "react";
+//TEST
+import LoginButton from "../components/LoginButton";
+import LogoutButton from "../components/LogoutButton";
 
 export default function Signin() {
   const [details, setDetails] = useState({
